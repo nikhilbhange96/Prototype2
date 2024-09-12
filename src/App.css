@@ -1,0 +1,79 @@
+.recommendation-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.recommendation-result {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.recommendation-result h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.recommendation-result p {
+  font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .recommendation-container {
+    padding: 10px;
+  }
+
+  .form-container {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .recommendation-container {
+    padding: 5px;
+  }
+
+  .recommendation-result h3 {
+    font-size: 20px;
+  }
+
+  .recommendation-result p {
+    font-size: 16px;
+  }
+}
